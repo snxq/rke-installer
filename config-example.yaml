@@ -1,0 +1,15 @@
+nodes:
+- name: k8s-server-01
+  host: 172.21.0.1
+  user: root
+  password:
+  keypath: /home/snxq/.ssh/id_ed25519
+  port: 22
+  role: master
+- name: k8s-server-02
+  host: 172.21.0.1
+  user: root
+  password:
+  keypath: /home/snxq/.ssh/id_ed25519
+  port: 22
+  role: server
